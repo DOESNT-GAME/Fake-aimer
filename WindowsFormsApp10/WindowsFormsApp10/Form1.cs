@@ -113,5 +113,10 @@ namespace WindowsFormsApp10
         {
             MessageBox.Show("Hello i am MessageBox", "Hello");
         }
+
+        private void restartToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }
